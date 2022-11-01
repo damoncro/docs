@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       d14c88c3-1ee9-406d-babb-334f0b6ae34c
 :END:
-#+title: Github to Gitbook Tutorial
+#+title: Gitbook to Github Tutorial
 
 
 * Fork and create a branch on github
@@ -103,5 +103,6 @@ The PR was created! Convert to draft, because we are not finishing the modificat
 #+attr_org: :width 500px
 [[file:20221101095635-gitbook_tutorial/Pull_Request/_20221101_102929screenshot.png]]
 
-Back to gitbook, you can Edit > Enter Subject > Merge workflow, all updates will be shown on github.
+Back to gitbook, you can Edit > Enter Subject (It should be relevant to each modification, for
+easy reading and reviewing on github) > Merge workflow, all updates will be shown on github.
 
