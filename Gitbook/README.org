@@ -1,0 +1,107 @@
+:PROPERTIES:
+:ID:       d14c88c3-1ee9-406d-babb-334f0b6ae34c
+:END:
+#+title: Github to Gitbook Tutorial
+
+
+* Fork and create a branch on github
+Fork cronos-docs to your github account
+
+#+attr_org: :width 500px
+[[file:20221101095635-gitbook_tutorial/_20221101_100527screenshot.png]]
+
+Create a branch
+Branch name: (A short and summarized topic you are working on)
+Branch source: crypto-org-chain/cronos-docs, gitbook
+#+attr_org: :width 500px
+[[file:20221101095635-gitbook_tutorial/_20221101_100747screenshot.png]]
+
+* Setup gitbook
+Log in with github Account
+
+New Space
+#+attr_org: :width 300px
+[[file:20221101095635-gitbook_tutorial/_20221101_095734screenshot.png]]
+
+Synchronize with Git
+#+attr_org: :width 300px
+[[file:20221101095635-gitbook_tutorial/_20221101_095801screenshot.png]]
+
+Github > Configure
+#+attr_org: :width 500px
+[[file:20221101095635-gitbook_tutorial/_20221101_095917screenshot.png]]
+
+Connect with Github
+#+attr_org: :width 500px
+[[file:20221101095635-gitbook_tutorial/_20221101_095950screenshot.png]]
+
+Select account > (Your Personal Github Account, for me, it is damoncro)
+#+attr_org: :width 500px
+[[file:20221101095635-gitbook_tutorial/_20221101_100039screenshot.png]]
+
+Select repository > (The forked repository, for me, it is damoncro/cronos-docs)
+#+attr_org: :width 500px
+[[file:20221101095635-gitbook_tutorial/_20221101_100147screenshot.png]]
+
+Select branch > (The branch you created at the beginning, for me, it is cronos-play-unreal-v0.0.9-alpha)
+#+attr_org: :width 500px
+[[file:20221101095635-gitbook_tutorial/_20221101_101042screenshot.png]]
+
+Github to GitBook > Synchronize
+#+attr_org: :width 500px
+[[file:20221101095635-gitbook_tutorial/_20221101_100412screenshot.png]]
+Finish!
+#+attr_org: :width 500px
+[[file:20221101095635-gitbook_tutorial/Setup_gitbook/_20221101_101316screenshot.png]]
+
+* Editing and submitting
+Press Edit button and edit the docs
+#+attr_org: :width 500px
+[[file:20221101095635-gitbook_tutorial/Editing_and_submitting/_20221101_101431screenshot.png]]
+
+After finishing editing, Press Enter a subject
+#+attr_org: :width 1000px
+[[file:20221101095635-gitbook_tutorial/Editing_and_submitting/_20221101_101605screenshot.png]]
+
+Since the first subject will be shown on github, so I prefer to describing what topic I will
+work, for example, I will name it as "Cronos Play Unreal Plugin v0.0.9-alpha Updates". Press
+Save to finish.
+#+attr_org: :width 500px
+[[file:20221101095635-gitbook_tutorial/Editing_and_submitting/_20221101_102207screenshot.png]]
+
+Press Merge
+#+attr_org: :width 1000px
+[[file:20221101095635-gitbook_tutorial/Editing_and_submitting/_20221101_102329screenshot.png]]
+
+If Synced is ticked, it means the syncronzation is finished.
+#+attr_org: :width 1000px
+[[file:20221101095635-gitbook_tutorial/Editing_and_submitting/_20221101_102358screenshot.png]]
+
+* Pull Request
+Go back to https://github.com/crypto-org-chain/cronos-docs/pulls, you can see the Compare &
+pull request shows up, press it
+#+attr_org: :width 1000px
+[[file:20221101095635-gitbook_tutorial/Pull_Request/_20221101_102508screenshot.png]]
+
+Select the desitination branch as gitbook
+#+attr_org: :width 1000px
+[[file:20221101095635-gitbook_tutorial/Pull_Request/_20221101_102616screenshot.png]]
+
+You can see the Subject you just made. Leave a comment if you want.
+#+attr_org: :width 1000px
+[[file:20221101095635-gitbook_tutorial/Pull_Request/_20221101_102642screenshot.png]]
+
+
+Create pull request
+#+attr_org: :width 500px
+[[file:20221101095635-gitbook_tutorial/Pull_Request/_20221101_102746screenshot.png]]
+
+The PR was created! Convert to draft, because we are not finishing the modification.
+#+attr_org: :width 1000px
+[[file:20221101095635-gitbook_tutorial/Pull_Request/_20221101_102838screenshot.png]]
+
+#+attr_org: :width 500px
+[[file:20221101095635-gitbook_tutorial/Pull_Request/_20221101_102929screenshot.png]]
+
+Back to gitbook, you can Edit > Enter Subject > Merge workflow, all updates will be shown on github.
+
